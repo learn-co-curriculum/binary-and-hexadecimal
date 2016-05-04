@@ -176,3 +176,6 @@ The computer keeps track of where data is stored in memory using a bunch
 of sequential numbers called memory addresses. These are typically
 represented using a hexadecimal representation because it's shorter than
 binary but is still a convenient represenation of the bits.
+
+They are often preceded by `0x` to show the value is hexadecimal, i.e.
+`0x1000000`.
