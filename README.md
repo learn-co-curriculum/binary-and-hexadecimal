@@ -119,7 +119,7 @@ like this:
 
 `110 100 100`
 
-These map `rw-`, `r--`, and `r--`.
+These map to `rw-`, `r--`, and `r--`.
 
 Neato.
 
