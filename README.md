@@ -93,12 +93,12 @@ Then, if we use the binary "and" operator, `&`, we can check if the permissions 
 
 In this case `permissions & admin` equals `10000`.
 
-Binary arithmetic:
+Binary "and" arithmetic:
 
- `1 0 0 1 1`
-&`1 0 0 0 0`
+`1 0 0 1 1`
+`1 0 0 0 0`
 ___________
-`  1 0 0 0 0`
+`1 0 0 0 0`
 
 If the permissions
 string had been `000011`, then `permissions & admin` would have equaled
