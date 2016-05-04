@@ -179,3 +179,40 @@ binary but is still a convenient represenation of the bits.
 
 They are often preceded by `0x` to show the value is hexadecimal, i.e.
 `0x1000000`.
+
+## Quiz
+
+???
+
+?: What's the hexcode for RGB(123, 233, 12)?
+
+( )`#7BE90D`
+( )`#6BE90D`
+( )`#7BF90D`
+(X)`#7BE90C`
+
+?: What's the chmod argument to get file permissions that look like `rwxr-xr-x`?
+
+( )`766`
+(X)`755`
+( )`644`
+( )`655`
+
+?: What's the decimal representation of `1010101`?
+
+( )`149`
+( )`84`
+(X)`85`
+( )`150`
+
+?: What's the value of the following equation if `n_0` is 1, `n_5` is 1,
+and all other values of `n` are 0?
+
+![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
+
+(X)`33`
+( )`32`
+( )`17`
+( )`15`
+
+???
