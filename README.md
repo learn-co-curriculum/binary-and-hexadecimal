@@ -205,8 +205,7 @@ They are often preceded by `0x` to show the value is hexadecimal, i.e.
 (X)`85`
 ( )`150`
 
-?: What's the value of the following equation if `n_0` is 1, `n_5` is 1,
-and all other values of `n` are 0?
+?: What's the value of the following equation if `n_0` is 1, `n_5` is 1, and all other values of `n` are 0?
 
 ![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
 
