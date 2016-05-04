@@ -136,10 +136,10 @@ n is 0 - 15
 if `n_0` is 4, `n_3` is A, `n_4` is F, and everything else is 0, then the
 value is 1024004, i.e. `FA004`
 
-Hexadecimal gets used because 1 hexdecimal digit maps perfectly to 1
-nibble of information.
+Hexadecimal gets used because 2 hexdecimal digits map perfectly to 1
+byte of information.
 
-What's a nibble? Well, a single binary digit is a "bit", 4 binary digits
+What's a byte? Well, a single binary digit is a "bit", 4 binary digits
 are a "nibble", 8 binary digits are a "byte", then we get into
 kilobytes, megabytes, and gigabytes.
 
