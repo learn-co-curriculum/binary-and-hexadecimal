@@ -20,3 +20,42 @@ These number systems also referred to as "base 2" or "base 10". You can have
 a "base anything" number system. In fact,
 [there have been computers built that had 3 states](https://en.wikipedia.org/wiki/Ternary_computer)
 which used the base 3 number system, or "ternary".
+
+These integer number systems have "digits". In decimal, a digit can be 0-9, in
+binary 0-1, and hexadecimal 0-F (16 unique values per digit).
+
+## Counting
+
+We count in these number systems the same way, the digits just flip
+faster or slower than we're used to in decimal.
+
+### Decimal counting
+
+Here's an easy one, we count like this in decimal:
+
+`7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20`
+
+Every time the digit increases, if it exceeds the maximum digit value, then
+the digit next to it increases and the digit being increased resets to
+zero.
+
+### Binary counting
+
+`0, 1, 10, 11, 100, 101, 110, 111, 1000`
+
+### Hexadecimal counting
+
+`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10`
+
+## Representation in decimal
+
+There is a nice way to use our familiar decimal system to think of other
+number systems. It looks like this.
+
+### Decimal
+
+### Binary
+
+### Hex
+
+
