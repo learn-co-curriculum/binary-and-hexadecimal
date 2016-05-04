@@ -67,6 +67,61 @@ n is 0 - 1
 if `n_1` is 1, `n_3` is 1, `n_4` is 1, and everything else is 0, then the
 value is 26, i.e. `11010`.
 
+So, once we've memorized the first powers of two, we just see which ones
+have a `1` and add them together. The first powers of two are:
+
+`1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024`
+
+If we have the number `101011`, then that number in decimal is `1 + 2 + 8 + 16 + 32`
+
+Some things we encounter that use binary directly:
+
+* Bitstrings
+
+If you ever need a really compact way to represent a bunch of binary
+values, you can assign each bit in a number to represent true or false.
+
+Say we have the binary number 10011. In Ruby, we would get this number
+like this: `permissions = 21`.
+
+Then, we would need numbers to check against the permissions number. So,
+`admin = 16`, in binary this number is `10000`.
+
+Then, if we use the binary "and" operator, `&`, we can check if the
+permissions are on for admins like this:
+
+`permissions & admin > 0`
+
+In this case `permissions & admin` equals `10000`. If the permissions
+string had been `000011`, then `permissions & admin` would have equaled
+0.
+
+* Unix permissions
+
+Unix uses bit strings for permissions.
+
+`chmod 644` you say? What bizarre incantation is this? Well it's unix
+using a bitstring to manage permissions. A unix bitstring represents
+whether 3 different groups of people can read, write or execute a given
+file. Here's what that looks like when inspected with `ls -l`:
+
+`-rw-r--r-- 1 spencer1248 staff 4176 May  4 09:23 README.md`
+
+The first 3 spaces are for the owner, the second 3 are for the group.
+the last 3 are for everyone.
+
+To change these permissions, we can use a bit string like this:
+
+`chmod 644 README.md`.
+
+644 treated as 3 separate numbers gives us 3 binary numbers that look
+like this:
+
+`110 100 100`
+
+These map `rw-`, `r--`, and `r--`.
+
+Neato.
 
 ### Hex
 
