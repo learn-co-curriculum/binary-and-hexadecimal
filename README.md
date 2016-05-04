@@ -131,3 +131,24 @@ n is 0 - 15
 
 if `n_0` is 4, `n_3` is A, `n_4` is F, and everything else is 0, then the
 value is 1024004, i.e. `FA004`
+
+Hexadecimal gets used because 1 hexdecimal digit maps perfectly to 1 byte of
+information.
+
+What's a byte? Well, a single binary digit is a "bit", 4 binary digits
+are a "nibble", 8 binary digits are a "byte", then we get into
+kilobytes, megabytes, and gigabytes.
+
+Say we have 2 bytes of information:
+
+`1000 1101 1111 0101`
+
+Assigning 1 hex digit per byte we get:
+
+`1000 1101 1111 0101`
+`   8    D    F    5`
+
+I think about this using decimal as an intermediate step.
+
+`1101` is `8 + 4 + 0 + 1 = 13`, and 13 is D in hex because `A = 10`, `B
+= 11`, `C = 12`, and `D = 13`.
