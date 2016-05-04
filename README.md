@@ -50,7 +50,9 @@ zero.
 ## Representation in decimal
 
 There is a nice way to use our familiar decimal system to think of other
-number systems. It looks like this.
+number systems. Each part of the sum corresponds to a digit in the
+number system. Keep in mind that anything to the 0 power is 1, i.e. 10^0
+= 1.
 
 ### Decimal
 
@@ -58,11 +60,18 @@ n is 0 - 9
 
 ![decimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/decimal_sum.gif)
 
+So for instance, if `n_0` is 4 and `n_3` is 5 and all the other `n`
+values are 0, then the values represented is 5004.
+
 ### Binary
 
 n is 0 - 1
 
 ![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
+
+if `n_1` is 1, `n_3` is 1, `n_4` is 1, and everything else is 0, then the
+value is 26, i.e. `11010`.
+
 
 ### Hex
 
@@ -70,4 +79,5 @@ n is 0 - 15
 
 ![hexadecimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/hexadecimal_sum.gif)
 
-
+if `n_0` is 4, `n_3` is A, `n_4` is F, and everything else is 0, then the
+value is 1024004, i.e. `FA004`
