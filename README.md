@@ -12,9 +12,9 @@ number system, 1 and 0.
 
 The binary number system (0,1), is exactly equivalent to our
 decimal number system (0,1,2,3,4,5,6,7,8,9), it just takes more digits to
-represent any given number. The advantage is that is simpler to
-manufacture physical hardware to work with 2 states than 10
-states.
+represent any given number. Binary numbers are used instead of something
+familiar like decimal because it is easier to manufacture physical hardware
+to work with 2 states than 10 states.
 
 These number systems also referred to as "base 2" or "base 10". You can have
 a "base anything" number system. In fact,
