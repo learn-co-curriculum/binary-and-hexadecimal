@@ -219,7 +219,7 @@ They are often preceded by `0x` to show the value is hexadecimal, i.e.
 ![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/hexadecimal_sum.gif)
 
 ( )`164482`
-(X)`264484`
+(X)`265984`
 ( )`364482`
 ( )`464484`
 
