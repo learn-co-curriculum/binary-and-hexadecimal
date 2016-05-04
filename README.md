@@ -100,9 +100,7 @@ Binary "and" arithmetic:
 ___________
 `1 0 0 0 0`
 
-If the permissions
-string had been `000011`, then `permissions & admin` would have equaled
-0.
+If the permissions string had been `000011`, then `permissions & admin` would have equaled 0.
 
 * Unix permissions
 
