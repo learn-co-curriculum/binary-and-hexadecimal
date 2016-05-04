@@ -153,7 +153,7 @@ Assigning 1 hex digit per byte we get:
 
 `   8    D    F    5`
 
-I think about this using decimal as an intermediate step.
+I think about this using decimal as an intermediate step. Let's tranlate the second nibble of information, `1101`, to `D`.
 
 `1101` is `8 + 4 + 0 + 1 = 13`, and 13 is D in hex because `A = 10`, `B
 = 11`, `C = 12`, and `D = 13`.
