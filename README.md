@@ -54,13 +54,19 @@ number systems. It looks like this.
 
 ### Decimal
 
+n is 0 - 9
+
 ![decimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/decimal_sum.gif)
 
 ### Binary
 
+n is 0 - 1
+
 ![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
 
 ### Hex
+
+n is 0 - 15
 
 ![hexadecimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/hexadecimal_sum.gif)
 
