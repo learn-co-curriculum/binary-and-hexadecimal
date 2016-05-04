@@ -132,10 +132,10 @@ n is 0 - 15
 if `n_0` is 4, `n_3` is A, `n_4` is F, and everything else is 0, then the
 value is 1024004, i.e. `FA004`
 
-Hexadecimal gets used because 1 hexdecimal digit maps perfectly to 1 byte of
-information.
+Hexadecimal gets used because 1 hexdecimal digit maps perfectly to 1
+nibble of information.
 
-What's a byte? Well, a single binary digit is a "bit", 4 binary digits
+What's a nibble? Well, a single binary digit is a "bit", 4 binary digits
 are a "nibble", 8 binary digits are a "byte", then we get into
 kilobytes, megabytes, and gigabytes.
 
@@ -146,9 +146,29 @@ Say we have 2 bytes of information:
 Assigning 1 hex digit per byte we get:
 
 `1000 1101 1111 0101`
+
 `   8    D    F    5`
 
 I think about this using decimal as an intermediate step.
 
 `1101` is `8 + 4 + 0 + 1 = 13`, and 13 is D in hex because `A = 10`, `B
 = 11`, `C = 12`, and `D = 13`.
+
+Hex gets used for a lot of stuff too.
+
+* Colors
+
+We use RGB for colors often in things like CSS. RGB is named as such
+because it has a value for a Red channel, Green channel, and Blue
+channel. Each channel has a value from 0 - 255, that's 8 bits or a byte.
+
+0 looks like `0000 0000` and 255 is `1111 1111`
+
+So, if we have an RGB value of 255, 255, 255 then this is `0xFFFFFF`.
+
+* Memory addresses
+
+The computer keeps track of where data is stored in memory using a bunch
+of sequential numbers called memory addresses. These are typically
+represented using a hexadecimal representation because it's shorter than
+binary but is still a convenient represenation of the bits.
