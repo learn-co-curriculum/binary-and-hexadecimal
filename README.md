@@ -54,8 +54,14 @@ number systems. It looks like this.
 
 ### Decimal
 
+[!decimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/decimal_sum.gif)
+
 ### Binary
 
+[!binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
+
 ### Hex
+
+[!hexadecimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/hexadecimal_sum.gif)
 
 
