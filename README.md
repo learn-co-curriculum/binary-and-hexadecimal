@@ -72,7 +72,7 @@ have a `1` and add them together. The first powers of two are:
 
 `1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024`
 
-If we have the number `101011`, then that number in decimal is `1 + 2 + 8 + 16 + 32`
+If we have the number `101011`, then that number in decimal is `1 + 2 + 8 + 32`
 
 Some things we encounter that use binary directly:
 
