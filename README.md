@@ -180,9 +180,9 @@ binary but is still a convenient represenation of the bits.
 They are often preceded by `0x` to show the value is hexadecimal, i.e.
 `0x1000000`.
 
-## Quiz
-
 ???
+
+# Quiz
 
 ?: What's the hexcode for RGB(123, 233, 12)?
 
