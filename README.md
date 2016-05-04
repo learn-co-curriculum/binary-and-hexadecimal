@@ -119,8 +119,7 @@ To change these permissions, we can use a bit string like this:
 
 `chmod 644 README.md`.
 
-644 treated as 3 separate numbers gives us 3 binary numbers that look
-like this:
+644 is treated as 3 separate numbers gives us 3 binary numbers that look like this:
 
 `110 100 100`
 
