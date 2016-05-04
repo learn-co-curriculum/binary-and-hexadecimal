@@ -31,19 +31,16 @@ Here's an easy one, we count like this in decimal:
 
 `0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20`
 
-Every time the digit increases, if it exceeds the maximum digit value, then
-the digit next to it increases and the digit being increased resets to
-zero.
+Every time we increment by 1 and the digit increases, if it exceeds the maximum digit value, then
+the digit next to it increases and the digit being increased resets to zero.
 
 ### Binary counting
 
-`0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001, 1010, 1011, 1100, 1101,
-1110, 1111, 10000`
+`0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111, 10000`
 
 ### Hexadecimal counting
 
-`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10, 11, 12, 13, 14, 15,
-16, 17, 18, 19, 1A, 1B, 1C, ...`
+`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, ...`
 
 ## Representation in decimal
 
