@@ -113,7 +113,7 @@ file. Here's what that looks like when inspected with `ls -l`:
 
 `-rw-r--r-- 1 spencer1248 staff 4176 May  4 09:23 README.md`
 
-The first 3 spaces are for the owner, the second 3 are for the group.
+Skipping the initial `-`, The first 3 spaces are for the owner, the second 3 are for the group.
 the last 3 are for everyone.
 
 To change these permissions, we can use a bit string like this:
