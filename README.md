@@ -18,8 +18,7 @@ to work with 2 states than 10 states.
 
 These number systems also referred to as "base 2" or "base 10". You can have a "base anything" number system. In fact, [there have been computers built that had 3 states](https://en.wikipedia.org/wiki/Ternary_computer) which used the base 3 number system, or "ternary".
 
-These integer number systems have "digits". In decimal, a digit can be 0-9, in
-binary 0-1, and hexadecimal 0-F (16 unique values per digit, aka base 16).
+These integer number systems have "digits". In decimal, a digit can be 0-9, in binary 0-1, and hexadecimal 0-F (16 unique values per digit, aka base 16).
 
 ## Counting
 
