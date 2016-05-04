@@ -56,7 +56,7 @@ n is 0 - 9
 ![decimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/decimal_sum.gif)
 
 So for instance, if `n_0` is 4 and `n_3` is 5 and all the other `n`
-values are 0, then the values represented is 5004.
+values are 0, then the represented number is 5004.
 
 ### Binary
 
@@ -81,8 +81,9 @@ Some things we encounter that use binary directly:
 If you ever need a really compact way to represent a bunch of binary
 values, you can assign each bit in a number to represent true or false.
 
-Say we have the binary number 10011. In Ruby, we would get this number
-like this: `permissions = 21`.
+Say we have the binary number 10011. In Ruby, we could get this number
+like this: `permissions = 19`, or like this: `permissions =
+"10011".to_i(2)`.
 
 Then, we would need numbers to check against the permissions number. So,
 `admin = 16`, in binary this number is `10000`.
