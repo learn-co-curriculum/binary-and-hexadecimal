@@ -95,8 +95,8 @@ In this case `permissions & admin` equals `10000`.
 
 Binary arithmetic:
 
-`  1 0 0 1 1`
-`& 1 0 0 0 0`
+ `1 0 0 1 1`
+&`1 0 0 0 0`
 ___________
 `  1 0 0 0 0`
 
