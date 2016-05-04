@@ -223,6 +223,11 @@ They are often preceded by `0x` to show the value is hexadecimal, i.e.
 ( )`364482`
 ( )`464484`
 
-???
+?: How many nibbles is 0xFFAE123?
+
+( )`10`
+( )`11`
+( )`8`
+(X)`7`
 
 ???
