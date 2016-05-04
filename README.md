@@ -85,15 +85,20 @@ Say we have the binary number 10011. In Ruby, we could get this number
 like this: `permissions = 19`, or like this: `permissions =
 "10011".to_i(2)`.
 
-Then, we would need numbers to check against the permissions number. So,
-`admin = 16`, in binary this number is `10000`.
+Then we need a way to check against the permissions bit string. We'll use `admin = 16`, in binary this number is `10000`.
 
-Then, if we use the binary "and" operator, `&`, we can check if the
-permissions are on for admins like this:
+Then, if we use the binary "and" operator, `&`, we can check if the permissions are on for admins like this:
 
 `permissions & admin > 0`
 
-In this case `permissions & admin` equals `10000`. If the permissions
+In this case `permissions & admin` equals `10000`.
+
+`1 0 0 1 1`
+`1 0 0 0 0`
+___________
+`1 0 0 0 0`
+
+If the permissions
 string had been `000011`, then `permissions & admin` would have equaled
 0.
 
