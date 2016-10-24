@@ -2,7 +2,7 @@
 
 10 kinds of 0xDEADBEEF
 
-## Introduction
+## introduction
 
 To store data, computers use (really) tiny things called transistors that can
 be in 1 of 2 states. This is convenient because we can represent any
@@ -231,3 +231,5 @@ They are often preceded by `0x` to show the value is hexadecimal, i.e.
 (X)`7`
 
 ???
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/binary-and-hexadecimal'>Binary And Hexadecimal</a> on Learn.co and start learning to code for free.</p>
