@@ -2,6 +2,14 @@
 
 10 kinds of 0xDEADBEEF
 
+
+<picture>
+  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.webp" type="image/webp">
+  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" type="image/gif">
+  <img src="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" alt="Rock Dodger demo!">
+</picture>
+
+
 ## introduction
 
 To store data, computers use (really) tiny things called transistors that can
@@ -233,3 +241,4 @@ They are often preceded by `0x` to show the value is hexadecimal, i.e.
 ???
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/binary-and-hexadecimal'>Binary And Hexadecimal</a> on Learn.co and start learning to code for free.</p>
+ 
