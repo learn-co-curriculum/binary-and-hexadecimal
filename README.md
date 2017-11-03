@@ -9,7 +9,7 @@
 
   <h1>Instructions</h1>
 
-  Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with `learn` and submit the lab with <code>learn submit</code>.
+  Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with <code>learn</code> and submit the lab with <code>learn submit</code>.
 
   If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a more detailed explanation.
 
@@ -39,6 +39,7 @@
   Once you login to the IDE, come back to your web browser and continue reading this guide.
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-login.png" style="display: block; border: 1px solid #000"/>
+  
   You can login via the Email and Password you used to create your Learn Account or you can use your new GitHub account to Sign In.
 
   Once you login to the Learn IDE, the lab should open and should look something like:
@@ -172,7 +173,7 @@ First Lab:
 
   <h1>Instructions</h1>
 
-  Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with `learn` and submit the lab with <code>learn submit</code>.
+  Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with <code>learn</code> and submit the lab with <code>learn submit</code>.
 
   If you feel comfortable with that, go ahead and try it now by clicking the "Open IDE" button. Otherwise continue reading for a more detailed explanation.
 
