@@ -30,7 +30,7 @@
 
   Go ahead and click on the Open Button on the Lab's header (not the image above, that's just a sample). The Learn IDE you downloaded and installed in the previous lesson should open.
 
-  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download and install the Learn IDE correctly. Use Ask a Question to get live support or read about <a href=http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial "Installing the Learn IDE"</a> in the Help Center.
+  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download and install the Learn IDE correctly. Use Ask a Question to get live support or read about <a href="http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial">Installing the Learn IDE"</a> in the Help Center.
 
   <h1>2. Login to the Learn IDE</h1>
 
