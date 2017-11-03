@@ -1,244 +1,214 @@
-# Binary and Hexadecimal
+# Your First IDE Lab
 
-10 kinds of 0xDEADBEEF
+<div class="readme-content-test--hide-when-active">
+  Now that you've downloaded and installed the Learn IDE, it's time to solve your first lab.
 
+  Watch the video below to see how to solve this lab.
+</div>
 
-<picture>
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.webp" type="image/webp">
-  <source srcset="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" type="image/gif">
-  <img src="https://curriculum-content.s3.amazonaws.com/web-development/bootcamp_prep/rock_dodger.gif" alt="Rock Dodger demo!">
-</picture>
+<div class="readme-content-test--show-when-active">
+  Now that you've learned about the IDE, it's time to solve your first lab.
+</div>
 
+<iframe class="readme-content-test--hide-when-active" width="560" height="315" src="https://www.youtube.com/embed/UuObhDt9ZV0?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=UuObhDt9ZV0">First IDE Lab</a></p>
 
-## introduction
+## Instructions
 
-To store data, computers use (really) tiny things called transistors that can
-be in 1 of 2 states. This is convenient because we can represent any
-number in the universe using a series of transistors. This is
-accomplished by using the 2 states to represent the two values in the binary
-number system, 1 and 0.
+<div class="readme-content-test--hide-when-active">
+  Open this lab in the Learn IDE, edit the file `edit-me.txt` in this lab using the Learn IDE, run the tests with `learn` and   submit the lab with `learn submit`.
 
-The binary number system (0,1), is exactly equivalent to our
-decimal number system (0,1,2,3,4,5,6,7,8,9), it just takes more digits to
-represent any given number. Binary numbers are used instead of something
-familiar like decimal because it is easier to manufacture physical hardware
-to work with 2 states than 10 states.
+  If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a     more detailed explanation.
 
-These number systems are also referred to as "base 2" or "base 10". You can have a "base anything" number system. In fact, [there have been computers built that had 3 states](https://en.wikipedia.org/wiki/Ternary_computer) which used the base 3 number system, or "ternary".
+  **If you are new to programming, please watch the video below and read the entire lab before beginning.**
 
-These integer number systems have "digits". In decimal, a digit can be 0-9, in binary 0-1, and hexadecimal 0-F (16 unique values per digit, aka base 16).
+  The context of reading everything you're going to do before you start will help. Then you can follow along with the lab and   it will be easier.
 
-## Counting
+  If you haven't already <a href="https://learn.co/ide-3/download"><img height="56px" width="auto" style="display: inline;"     src="//s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" /></a>
+</div>
 
-We count in these number systems the same way, the digits just flip
-faster or slower than we're used to in decimal.
+<div class="readme-content-test--show-when-active">
+  Open this lab in the Learn IDE, edit the file `edit-me.txt` in this lab using the Learn IDE, run the tests with `learn` and   submit the lab with `learn submit`.
 
-### Decimal counting
+  If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a     more detailed explanation.
 
-Here's an easy one, we count like this in decimal:
+  **If you are new to programming, please read the entire lab before beginning.**
+ </div>
 
-`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20`
 
-Every time we increment by 1 and the digit increases, if it exceeds the maximum digit value, then
-the digit next to it increases and the digit being increased resets to zero.
+### Opening a Lab with the Learn IDE
 
-### Binary counting
+<div class="readme-content-test--hide-when-active">
+  The Learn IDE works best when you open it along with a lab to work on.
 
-`0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111, 10000`
+  Whenever you're on a lab in Learn that requires the Learn IDE, you'll see an "Open Button" on the Lab's header.
 
-### Hexadecimal counting
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="border: 1px solid #000;     display: block" alt="Lab Header">
 
-`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, ...`
+  Go ahead and click on the Open Button on the Lab's header (not the image above, that's just a sample). The Learn IDE you       downloaded and installed in the previous lesson should open.
 
-## Representation in decimal
+  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download   and install the Learn IDE correctly. Use Ask a Question to get live support or read about [Installing the Learn IDE in the     Help Center](http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial).
+</div>
 
-There is a nice way to use our familiar decimal system to think of other
-number systems. Each part of the sum corresponds to a digit in the
-number system. Keep in mind that anything to the 0 power is 1, i.e. 10^0
-= 1.
+<div class="readme-content-test--show-when-active">
+  Whenever you're on a lab in Learn that requires the Learn IDE, you'll see an "Open Button" on the Lab's header.
+  
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="border: 1px solid #000;     display: block" alt="Lab Header">
+  
+  When you click the Open button for the first time, the IDE will take over your browser window and a tour of the IDE features   will begin. Follow the tour and when you are finished the IDE and this lesson text will be side by side. You can choose to     have the IDE be full screen, or split screen depending on your preference, but we will always default to split screen.
+  
+  Go ahead and click on the Open Button on the Lab's header (not the image above, that's just a sample). 
+  If clicking on the Open Button did not do anything or gave you an error message Use Ask a Question to get live support.
+</div>
 
-### Decimal
+<div class="readme-content-test--hide-when-active">
 
-n is 0 - 9
+### Login to the Learn IDE
 
-![decimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/decimal_sum.gif)
+  After clicking the "Open Button", the Learn IDE should open and prompt you to login.
 
-So for instance, if `n_0` is 4 and `n_3` is 5 and all the other `n`
-values are 0, then the represented number is 5004.
+  Once you login to the IDE, come back to your web browser and continue reading this guide.
 
-### Binary
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-login.png" style="display: block; border: 1px solid   #000">
+  You can login via the Email and Password you used to create your Learn Account or you can use your new GitHub account to       Sign In.
 
-n is 0 - 1
+  Once you login to the Learn IDE, the lab should open and should look something like:
 
-![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-ide.png" style="display: block">
+</div>
 
-if `n_1` is 1, `n_3` is 1, `n_4` is 1, and everything else is 0, then the
-value is 26, i.e. `11010`.
+### Navigate Folders with the File Tree
 
-So, once we've memorized the first powers of two, we just see which ones
-have a `1` and add them together. The first powers of two are:
+<div class="readme-content-test--hide-when-active">
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-file-tree.png" style="display: block">
 
-`1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024`
+  The File Tree in the IDE is a way to browse the file and folders in the lab. It works a lot like a file browser on your       computer, showing you the top level folder on top, generally the lab name, and then all the files and folders inside the       folder.
 
-If we have the number `101011`, then that number in decimal is `1 + 2 + 8 + 32`
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-expanded-tree.png" style="display: block">
 
-Some things we encounter that use binary directly:
+  A folder is represented in the file tree with a Folder icon and a `>` showing that it is currently folded or closed, hiding   the files inside it. If you click on the folder you can expand it or open it, revealing the files inside the directory.
 
-* Bitstrings
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-context-menu.png" style="display: block">
 
-If you ever need a really compact way to represent a bunch of binary
-values, you can assign each bit in a number to represent true or false.
+  You can "Right Click" in the File Tree and a context menu will appear, giving you options to work within the folders and       files of the lab, like creating a New File or New Folder. When creating a new file or new folder via the context menu, it     will be created within the directory you right clicked on, so in the image above, the right click occurred within the `spec`   directory, so any new file created would appear there.
+</div>
 
-Say we have the binary number 10011. In Ruby, we could get this number
-like this: `permissions = 19`, or like this: `permissions =
-"10011".to_i(2)`.
+<div class="readme-content-test--show-when-active">
+  The File Tree in the IDE is a way to browse the file and folders in the lab. It works a lot like a file browser on your       computer, showing you the top level folder on top, generally the lab name, and then all the files and folders inside the       folder.
+  
+  A folder is represented in the file tree with a Folder icon and a > showing that it is currently folded or closed, hiding     the files inside it. If you click on the folder you can expand it or open it, revealing the files inside the directory.
+  
+  You can "Right Click" in the File Tree and a context menu will appear, giving you options to work within the folders and       files of the lab, like creating a New File or New Folder. When creating a new file or new folder via the context menu, it     will be created within the directory you right clicked on, so in the image above, the right click occurred within the spec     directory, so any new file created would appear there.
+  
+  You can also add a new file or folder from the plus sign at the bottom right of the IDE.
+</div>
 
-Then we need a way to check against the permissions bit string. We'll use `admin = 16`, in binary this number is `10000`.
+### Open a File from the File Tree
 
-Then, if we use the binary "and" operator, `&`, we can check if the permissions are on for admins like this:
+When you want to actually edit a file, you can click or double click on it in the File Tree. The file will then open in a new tab in the text editor.
 
-`permissions & admin > 0`
+**After opening this lab with the "Open" button, use the File Tree and click on the file `edit-me.txt` to open it.**
 
-In this case `permissions & admin` equals `10000`.
+<img class="readme-content-test--hide-when-active" src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/opening-a-file.png" style="display: block">
 
-Binary "and" arithmetic:
+<img class="readme-content-test--show-when-active" src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/opening-a-file.png" style="display: block">
 
-`1 0 0 1 1`
-`1 0 0 0 0`
-___________
-`1 0 0 0 0`
 
-If the permissions string had been `000011`, then `permissions & admin` would have equaled 0.
 
-* Unix permissions
 
-Unix uses bit strings for permissions.
 
-`chmod 644` you say? What bizarre incantation is this? Well it's unix
-using a bitstring to manage permissions. A unix bitstring represents
-whether 3 different groups of people can read, write or execute a given
-file. Here's what that looks like when inspected with `ls -l`:
+Incomplete past here.
 
-`-rw-r--r-- 1 spencer1248 staff 4176 May  4 09:23 README.md`
+### Edit a File with the Text Editor
 
-Skipping the initial `-`, The first 3 spaces are for the owner, the second 3 are for the group, the last 3 are for everyone.
+Once you've opened a file, every tab you see is the Text Editor that allows you to edit the contents of the file. This is where we do our programming and write our code. You open the files you want to edit in a tab in the text editor and can write code and save the file. Each tab gets the name of the file you are editing.
 
-To change these permissions, we can use a bit string like this:
+**If you've clicked on `edit-me.txt` as described in how to open a file, you should see a tab now with the title `edit-me.txt`. The file is totally empty. Go ahead and write anything in the file, `Hello World!`, your name, anything. To pass this lab all you need to do is not have a blank `edit-me.txt` file.**
 
-`chmod 644 README.md`.
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/editing-a-file.png" style="display: block">
 
-644 is treated as 3 separate numbers, giving us binary numbers that look like this:
+### 6. Saving a File
 
-`110 100 100`
+After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by going to File -> Save in the application menu, pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
-These map to `rw-`, `r--`, and `r--`.
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/saving-a-file.png" style="display: inline">
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/saved-edited-file.png" style="display: inline">
 
-Neato.
+Notice how after saving the file, the blue dot disappears on the tab.
 
-### Hex
+### 7. Running a Command with Your Terminal
 
-n is 0 - 15
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/ide-terminal.png" style="display: block">
 
-![hexadecimal sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/hexadecimal_sum.gif)
+On the bottom of the IDE is a Terminal. This is your access point to your development environment that the Learn IDE provides. As a programmer, we use the terminal for a lot of tasks including actually running our code and programs and executing commands. You're going to learn a lot about how to use a Terminal, but for now, know that you can type certain commands into it. Let's try one, `ls` (the letter `L`, but lowercase, and the letter `S`, but lowercase). Click into the terminal, then type `ls` and press enter to execute the command.
 
-if `n_0` is 4, `n_3` is A, `n_4` is F, and everything else is 0, then the
-value is 1024004, i.e. `FA004`
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/ls-terminal.png" style="display: block">
 
-Hexadecimal gets used because 2 hexdecimal digits map perfectly to 1
-byte of information.
+`ls` stands for list and it will list all the files in the directory, similar to the file tree. After you press enter you will see output from the terminal responding to the command you typed.
 
-What's a byte? Well, a single binary digit is a "bit", 4 binary digits
-are a "nibble", 8 binary digits are a "byte", then we get into
-kilobytes, megabytes, and gigabytes.
+Try another one, from your terminal, type `pwd`, which stands for print working directory, which is the current directory the terminal is in.
 
-Say we have 2 bytes of information:
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/pwd-terminal.png" style="display: block">
 
-`1000 1101 1111 0101`
+As you can see, the terminal is in the `first-ide-lab` directory which is the folder that contains this lab.
 
-Assigning 1 hex digit per byte we get:
+### 8. Running Your Tests from Your Terminal
 
-`1000 1101 1111 0101`
+Now that you know how to run commands from your Terminal, the next step is to run the `learn` command. Each lab comes with a challenge or problem you need to solve by writing code, demonstrating that you understand the concepts and can implement them in your programs. Labs are "test driven", which means we include code in the lab that checks to see if the code you write correctly solves the challenge. To check your lab and run the tests, you type in `learn` in your terminal.
 
-`   8    D    F    5`
+The challenge of this lab is to edit the file `edit-me.txt`. When that file is empty, if you run `learn` from your terminal, you would see:
 
-I think about this using decimal as an intermediate step. Let's tranlate the second nibble of information, `1101`, to `D`.
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/failing-test.png" style="display: block">
 
-`1101` is `8 + 4 + 0 + 1 = 13`, and 13 is D in hex because `A = 10`, `B
-= 11`, `C = 12`, and `D = 13`.
+This is a failing test, which is totally normal, all labs are failing until you make them pass.
 
-Hex gets used for a lot of stuff too.
+You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
 
-* Colors
+```
+First Lab:
+  you made an edit to edit-me.txt (FAILED - 1)
+```
 
-We use RGB for colors often in things like CSS. RGB is named as such
-because it has a value for a Red channel, Green channel, and Blue
-channel. Each channel has a value from 0 - 255, that's 8 bits or a byte.
+That's a pretty helpful message, the tests are telling you that you should have made an edit to edit-me.txt
 
-0 looks like `0000 0000` and 255 is `1111 1111`
+Once you edit `edit-me.txt` to contain any text and not be empty, if you re-run `learn` from your terminal, you would see:
 
-So, if we have an RGB value of 255, 255, 255 then this is `0xFFFFFF`.
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/passing-test.png" style="display: block">
 
-* Memory addresses
+Notice that the `edit-me.txt` file has text in it and is saved. The tests now report that everything is passing and there are no failures.
 
-The computer keeps track of where data is stored in memory using a bunch
-of sequential numbers called memory addresses. These are typically
-represented using a hexadecimal representation because it's shorter than
-binary but is still a convenient represenation of the bits.
+When you run `learn`, you will also see that the Learn website is aware of the status of your lab represented by the "Lights" on the right.
 
-They are often preceded by `0x` to show the value is hexadecimal, i.e.
-`0x1000000`.
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/failing-lights.png" style="display: inline">
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/passing-lights.png" style="display: inline">
 
-???
+**Make sure you've edited `edit-me.txt` and added any text, saved the file, and then run `learn` from your terminal to see if your tests are passing.**
 
-# Quiz
+### 9. Submitting a Lab with `learn submit`
 
-?: What's the hexcode for RGB(123, 233, 12)?
+The last step to completing a lab with the Learn IDE is to submit it. You can do this at anytime by typing `learn submit` in your terminal.
 
-( )`#7BE90D`
-( )`#6BE90D`
-( )`#7BF90D`
-(X)`#7BE90C`
+<img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-submit.png" style="display: block">
 
-?: What's the chmod argument to get file permissions that look like `rwxr-xr-x`?
+If the tests are passing and the lab is submitted, all lights will turn green and you can move onto the next lesson.
 
-( )`766`
-(X)`755`
-( )`644`
-( )`655`
+Congratulations, you've passed your first lab!!!
 
-?: What's the decimal representation of `1010101`?
+## Summary
 
-( )`149`
-( )`84`
-(X)`85`
-( )`150`
+For every lab, the workflow you will use to solve it is:
 
-?: What's the decimal value of the following equation if `n_0` is 1, `n_5` is 1, and all other values of `n` are 0?
+1. Open the lab by clicking the "Open" button.
 
-![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/binary_sum.gif)
+2. Read the README of the lab and get a sense of what the lab wants you to do.
 
-(X)`33`
-( )`32`
-( )`17`
-( )`15`
+3. Run the tests with `learn` from your terminal.
 
-?: What's the decimal value of the following equation if `n_2` is F, `n_4` is 4, and all other values of `n` are 0?
+4. Open any files you need to edit using the File Tree.
 
-![binary sum](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/binary-and-hexadecimal/hexadecimal_sum.gif)
+5. Write code in the Text Editor that will satisfy the lab requirements.
 
-( )`164482`
-(X)`265984`
-( )`364482`
-( )`464484`
+5. Run the `learn` command in your Terminal as many times as you need to get feedback.
 
-?: How many nibbles is 0xFFAE123?
+6. Once the tests are passing or even if you're just done for the day, submit the lab with `learn submit`.
 
-( )`10`
-( )`11`
-( )`8`
-(X)`7`
-
-???
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/binary-and-hexadecimal'>Binary And Hexadecimal</a> on Learn.co and start learning to code for free.</p>
- 
+7. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
