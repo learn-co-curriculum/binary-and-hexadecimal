@@ -44,11 +44,11 @@
 
   Whenever you're on a lab in Learn that requires the Learn IDE, you'll see an "Open Button" on the Lab's header.
 
-  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="border: 1px solid #000;     display: block" alt="Lab Header">
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="border: 1px solid #000;     display: block" alt="Lab Header"/>
 
   Go ahead and click on the Open Button on the Lab's header (not the image above, that's just a sample). The Learn IDE you       downloaded and installed in the previous lesson should open.
 
-  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download   and install the Learn IDE correctly. Use Ask a Question to get live support or read about [Installing the Learn IDE in the     Help Center](http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial).
+  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download   and install the Learn IDE correctly. Use Ask a Question to get live support or read about <a href="http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial">Installing the Learn IDE</a> in the Help Center.
 </div>
 
 <div class="readme-content-test--show-when-active">
@@ -64,18 +64,18 @@
 
 <div class="readme-content-test--hide-when-active">
 
-### Login to the Learn IDE
+  <h1>Login to the Learn IDE</h1>
 
   After clicking the "Open Button", the Learn IDE should open and prompt you to login.
 
   Once you login to the IDE, come back to your web browser and continue reading this guide.
 
-  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-login.png" style="display: block; border: 1px solid   #000">
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-login.png" style="display: block; border: 1px solid   #000"/>
   You can login via the Email and Password you used to create your Learn Account or you can use your new GitHub account to       Sign In.
 
   Once you login to the Learn IDE, the lab should open and should look something like:
 
-  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-ide.png" style="display: block">
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-ide.png" style="display: block"/>
 </div>
 
 ### Navigate Folders with the File Tree
