@@ -33,7 +33,7 @@ Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this l
 
   If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a     more detailed explanation.
 
-  **If you are new to programming, please read the entire lab before beginning.**
+  <strong>If you are new to programming, please read the entire lab before beginning.</strong>
  </div>
 
 
