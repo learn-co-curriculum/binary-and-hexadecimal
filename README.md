@@ -17,11 +17,11 @@
 ## Instructions
 
 <div class="readme-content-test--hide-when-active">
-  Open this lab in the Learn IDE, edit the file `edit-me.txt` in this lab using the Learn IDE, run the tests with `learn` and   submit the lab with `learn submit`.
+Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with <code>learn</code> and submit the lab with <code>learn submit</code>.
 
   If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a     more detailed explanation.
 
-  **If you are new to programming, please watch the video below and read the entire lab before beginning.**
+  <strong>If you are new to programming, please watch the video below and read the entire lab before beginning.</strong>
 
   The context of reading everything you're going to do before you start will help. Then you can follow along with the lab and   it will be easier.
 
@@ -29,7 +29,7 @@
 </div>
 
 <div class="readme-content-test--show-when-active">
-  Open this lab in the Learn IDE, edit the file `edit-me.txt` in this lab using the Learn IDE, run the tests with `learn` and   submit the lab with `learn submit`.
+  Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with <code>learn</code> and submit the lab with <code>learn submit</code>.
 
   If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a     more detailed explanation.
 
