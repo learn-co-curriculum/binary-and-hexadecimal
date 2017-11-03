@@ -117,7 +117,7 @@ First Lab:
   you made an edit to edit-me.txt (FAILED - 1)
 ```
 
-  That's a pretty helpful message, the tests are telling you that you should have made an edit to edit-me.txt
+  That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
 
@@ -174,7 +174,7 @@ First Lab:
 
   Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with `learn` and submit the lab with <code>learn submit</code>.
 
-  If you feel comfortable with that, go ahead and try it now by clicking the "Open" button. Otherwise continue reading for a more detailed explanation.
+  If you feel comfortable with that, go ahead and try it now by clicking the "Open IDE" button. Otherwise continue reading for a more detailed explanation.
 
   <strong>If you are new to programming, please read the entire lab before beginning.</strong>
 
@@ -189,7 +189,7 @@ First Lab:
 
    When you click the Open button for the first time, the IDE will take over your browser window and a tour of the IDE features will begin. When the tour is finished, the IDE and this lesson text will be side by side so you can continue reading while looking at the IDE. Go ahead and click the Open IDE button to take the tour. 
    
-   Now that you've taken a tour of the IDE, you have a sense of the different components. Let's take a closer look at how to work on a lab in the the IDE.
+   Now that you've taken a tour of the IDE, you have an idea of the different components. Let's take a closer look at how to work on a lab in the IDE.
   
   If clicking on the Open IDE button did not do anything or gave you an error message, use Ask a Question to get live support.
 
@@ -275,7 +275,7 @@ First Lab:
   you made an edit to edit-me.txt (FAILED - 1)
 ```
 
-  That's a pretty helpful message, the tests are telling you that you should have made an edit to edit-me.txt
+  That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
 
