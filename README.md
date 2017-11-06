@@ -1,5 +1,7 @@
 <div class="readme-content-test--hide-when-active">
   <h1> Your First IDE Lab</h1>
+  
+  <br>
 
   Now that you've downloaded and installed the Learn IDE, it's time to solve your first lab.
 
@@ -8,6 +10,8 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UuObhDt9ZV0?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=UuObhDt9ZV0">First IDE Lab</a></p>
 
   <h1>Instructions</h1>
+  
+  <br>
 
   Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with <code>learn</code> and submit the lab with <code>learn submit</code>.
 
@@ -21,6 +25,8 @@
 
 
   <h1>1. Opening a Lab with the Learn IDE</h1>
+  
+  <br>
 
   The Learn IDE works best when you open it along with a lab to work on.
 
@@ -35,6 +41,8 @@
   If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download and install the Learn IDE correctly. Use Ask a Question to get live support or read about <a href="http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial">Installing the Learn IDE"</a> in the Help Center.
 
   <h1>2. Login to the Learn IDE</h1>
+  
+  <br>
 
   After clicking the "Open Button", the Learn IDE should open and prompt you to login.
 
@@ -51,6 +59,8 @@
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-ide.png" style="display: block"/>
 
   <h1>3. Navigate Folders with the File Tree</h1>
+  
+  <br>
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-file-tree.png" style="display: block"/>
   
@@ -72,6 +82,8 @@
 
 <h1>4. Open a File from the File Tree</h1>
 
+<br>
+
   When you want to actually edit a file, you can click or double click on it in the File Tree. The file will then open in a new tab in the text editor.
 
   <strong>After opening this lab with the "Open" button, use the File Tree and click on the file <code>edit-me.txt</code> to open it.</strong>
@@ -79,6 +91,8 @@
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/opening-a-file.png" style="display: block"/>
 
   <h1>5. Edit a File with the Text Editor</h1>
+  
+  <br>
 
   Once you've opened a file, every tab you see is the Text Editor that allows you to edit the contents of the file. This is where we do our programming and write our code. You open the files you want to edit in a tab in the text editor and can write code and save the file. Each tab gets the name of the file you are editing.
 
@@ -87,6 +101,8 @@
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/editing-a-file.png" style="display: block"/>
 
   <h1>6. Saving a File</h1>
+  
+  <br>
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by going to File -> Save in the application menu, pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
@@ -120,6 +136,8 @@
   As you can see, the terminal is in the <code>first-ide-lab</code> directory which is the folder that contains this lab.
 
   <h1>8. Running Your Tests from Your Terminal</h1>
+  
+  <br>
 
   Now that you know how to run commands from your Terminal, the next step is to run the <code>learn</code> command. Each lab comes with a challenge or problem you need to solve by writing code, demonstrating that you understand the concepts and can implement them in your programs. Labs are "test driven", which means we include code in the lab that checks to see if the code you write correctly solves the challenge. To check your lab and run the tests, you type in <code>learn</code> in your terminal.
 
@@ -149,6 +167,8 @@ First Lab:
   Notice that the <code>edit-me.txt</code> file has text in it and is saved. The tests now report that everything is passing and there are no failures.
 
   When you run <code>learn</code>, you will also see that the Learn website is aware of the status of your lab represented by the "Lights" on the right.
+  
+  <br>
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/failing-lights.png" style="display: inline"/>
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/passing-lights.png" style="display: inline"/>
@@ -158,6 +178,8 @@ First Lab:
 <strong>Make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
 
   <h1>9. Submitting a Lab with <code>learn submit</code></h1>
+  
+  <br>
 
   The last step to completing a lab with the Learn IDE is to submit it. You can do this at anytime by typing <code>learn submit</code> in your terminal.
 
@@ -170,22 +192,40 @@ First Lab:
   Congratulations, you've passed your first lab!!!
 
   <h2>Summary</h2>
+  
+  <br>
 
   For every lab, the workflow you will use to solve it is:
+  
+  <br>
 
   1. Open the lab by clicking the "Open" button.
+  
+  <br>
 
   2. Read the README of the lab and get a sense of what the lab wants you to do.
+  
+  <br>
 
   3. Run the tests with <code>learn</code> from your terminal.
+  
+  <br>
 
   4. Open any files you need to edit using the File Tree.
+  
+  <br>
 
   5. Write code in the Text Editor that will satisfy the lab requirements.
+  
+  <br>
 
   5. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
+  
+  <br>
 
   6. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
+  
+  <br>
 
   7. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
  </div>
@@ -198,6 +238,8 @@ First Lab:
   Now that you've learned about the Learn IDE, it's time to solve your first lab.
 
   <h1>Instructions</h1>
+  
+  <br>
 
   Open this lab in the Learn IDE, edit the file <code>edit-me.txt</code> in this lab using the Learn IDE, run the tests with <code>learn</code> and submit the lab with <code>learn submit</code>.
 
@@ -209,10 +251,14 @@ First Lab:
 
 
   <h1>1. Opening a Lab with the Learn IDE</h1>
+  
+  <br>
 
   Whenever you're on a lab in Learn that requires the Learn IDE, you'll see an "Open IDE" button on the Lab's header.
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="border: 1px solid #000; display: block" alt="Lab Header"/>
+  
+  <br>
 
    When you click the Open button for the first time, the IDE will take over your browser window and a tour of the IDE features will begin. When the tour is finished, the IDE and this lesson text will be side by side so you can continue reading while looking at the IDE. Go ahead and click the Open IDE button to take the tour. 
    
@@ -224,13 +270,19 @@ First Lab:
   
   new image
   
+  <br>
+  
   You can open or hide the file tree when you are in Split Screen, so you have more room to work in the text editor and terminal.
   
   Add more tooltip info
 
   <h1>2. Navigate Folders with the File Tree</h1>
+  
+  <br>
 
   new image
+  
+  <br>
 
   The File Tree in the IDE is a way to browse the file and folders in the lab. It works a lot like a file browser on your computer, showing you the top level folder on top, generally the lab name, and then all the files and folders inside the folder.
 
@@ -239,6 +291,8 @@ First Lab:
   A folder is represented in the file tree with a Folder icon and a `>` showing that it is currently folded or closed, hiding the files inside it. If you click on the folder you can expand it or open it, revealing the files inside the directory.
 
  new image
+ 
+ <br>
 
   You can "Right Click" on any directory in the File Tree and a context menu will appear, giving you options to create a new file or directory, or rename, move, duplicate, or delete the selected directory. When creating a new file or new folder via the context menu, it will be created within the directory you right clicked on, so in the image above, the right click occurred within the <code>spec</code> directory, so any new file created would appear there. If you "Right Click" on a file you will see options to rename, move, duplicate, or delete the selected file. 
   
@@ -248,26 +302,38 @@ First Lab:
 
 <h1>3. Open a File from the File Tree</h1>
 
+  <br>
+
   When you want to actually edit a file, you can click or double click on it in the File Tree. The file will then open in a new tab in the text editor.
 
   <strong>After opening this lab with the "Open IDE" button, use the File Tree and click on the file <code>edit-me.txt</code> to open it.</strong>
 
   new image
+  
+  <br>
 
   <h1>4. Edit a File with the Text Editor</h1>
+  
+  <br>
 
   Once you've opened a file, the tab you see is the Text Editor that allows you to edit the contents of the file. This is where we do our programming and write our code. You open the files you want to edit in a tab in the text editor and can write code and save the file. Each tab gets the name of the file you are editing.
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
 
   new image
+  
+  <br>
 
   <h1>5. Saving a File</h1>
+  
+  <br>
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
   new image
   new image
+  
+  <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
   
@@ -275,25 +341,37 @@ First Lab:
   
   new image
   
+  <br>
+  
   If you save the file yourself, this will update to reflect the time at which you saved. The IDE is also auto saving in the background. When the auto save occurs, the yellow dot on the text editor tab will disappear (even if you didn't manually save), and the timestamp at the bottom right will update. You should stay in the habit of manually saving your work, as having this habit will prepare you  for working on a local environment, which will not auto save.
 
   <h1>6. Running a Command with Your Terminal</h1>
+  
+  <br>
 
 new image
+
+  <br>
   
   On the bottom of the IDE is a Terminal. This is your access point to your development environment that the Learn IDE provides. As a programmer, we use the terminal for a lot of tasks including actually running our code and programs and executing commands. You're going to learn a lot about how to use a Terminal, but for now, know that you can type certain commands into it. Let's try one, <code>ls</code> (the letter <code>L</code>, but lowercase, and the letter <code>S</code>, but lowercase). Click into the terminal, then type <code>ls</code> and press enter to execute the command.
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/ls-terminal.png" style="display: block"/>
+  
+  <br>
 
   <code>ls</code> stands for list and it will list all the files in the directory, similar to the file tree. After you press enter you will see output from the terminal responding to the command you typed.
 
   Try another one, from your terminal, type <code>pwd</code>, which stands for print working directory, which is the current directory the terminal is in.
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/pwd-terminal.png" style="display: block"/>
+  
+  <br>
 
   As you can see, the terminal is in the <code>first-ide-lab</code> directory which is the folder that contains this lab.
 
   <h1>7. Running Your Tests from Your Terminal</h1>
+  
+  <br>
 
   Now that you know how to run commands from your Terminal, the next step is to run the <code>learn</code> command. Each lab comes with a challenge or problem you need to solve by writing code, demonstrating that you understand the concepts and can implement them in your programs. Labs are "test driven", which means we include code in the lab that checks to see if the code you write correctly solves the challenge. To check your lab and run the tests, you type in <code>learn</code> in your terminal.
 
@@ -315,17 +393,25 @@ First Lab:
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
 
   new image
+  
+  <br>
 
   Notice that the <code>edit-me.txt</code> file has text in it and is saved. The tests now report that everything is passing and there are no failures.
 
   When you run <code>learn</code>, you will also see that the Learn website is aware of the status of your lab represented by the "Lights" on the right.
+  
+  <br>
 
   new image
   new image
+  
+  <br>
 
 <strong>Make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
 
   <h1>8. Submitting a Lab with <code>learn submit</code></h1>
+  
+  <br>
 
   The last step to completing a lab with the Learn IDE is to submit it. You can do this at anytime by typing <code>learn submit</code> in your terminal.
 
@@ -336,22 +422,40 @@ First Lab:
   Congratulations, you've passed your first lab!!!
 
   <h2>Summary</h2>
+  
+  <br>
 
   For every lab, the workflow you will use to solve it is:
+  
+  <br>
 
   1. Open the lab by clicking the "Open" button.
+  
+  <br>
 
   2. Read the README of the lab and get a sense of what the lab wants you to do.
+  
+  <br>
 
   3. Run the tests with <code>learn</code> from your terminal.
+  
+  <br>
 
   4. Open any files you need to edit using the File Tree.
+  
+  <br>
 
   5. Write code in the Text Editor that will satisfy the lab requirements.
+  
+  <br>
 
   5. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
+  
+  <br>
 
   6. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
+  
+  <br>
 
   7. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
  </div>
