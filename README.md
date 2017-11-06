@@ -21,7 +21,9 @@
 
   The context of reading everything you're going to do before you start will help. Then you can follow along with the lab and it will be easier.
 
-  If you haven't already <a href="https://learn.co/ide-3/download"><img height="56px" width="auto" style="display: inline;" src="//s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" /></a>
+  If you haven't already: 
+  <br>
+  <a href="https://learn.co/ide-3/download"><img height="56px" width="auto" style="display: inline;" src="//s3-us-west-2.amazonaws.com/curriculum-content/streamlined-onboarding/download-ide-button.png" /></a>
 
 
   <h1>1. Opening a Lab with the Learn IDE</h1>
@@ -38,7 +40,7 @@
 
   Go ahead and click on the Open Button on the Lab's header (not the image above, that's just a sample). The Learn IDE you downloaded and installed in the previous lesson should open.
 
-  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download and install the Learn IDE correctly. Use Ask a Question to get live support or read about <a href="http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial">Installing the Learn IDE"</a> in the Help Center.
+  If clicking on the Open Button did not do anything or gave you an error message, there is a good chance you did not download and install the Learn IDE correctly. Use Ask a Question to get live support or read about <a href="http://help.learn.co/the-learn-ide/ide-download-installation-and-set-up-tutorial">Installing the Learn IDE</a> in the Help Center.
 
   <h1>2. Login to the Learn IDE</h1>
   
@@ -109,8 +111,8 @@
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/saving-a-file.png" style="display: inline"/>
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/saved-edited-file.png" style="display: inline"/>
   
+  
   <br>
-
   Notice how after saving the file, the blue dot disappears on the tab.
 
   <h1>7. Running a Command with Your Terminal</h1>
@@ -132,6 +134,8 @@
   <br>
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/pwd-terminal.png" style="display: block"/>
+  
+  <br>
 
   As you can see, the terminal is in the <code>first-ide-lab</code> directory which is the folder that contains this lab.
 
@@ -151,10 +155,10 @@
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
 
-```
+<samp>
 First Lab:
   you made an edit to edit-me.txt (FAILED - 1)
-```
+</samp>
 
   That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
@@ -219,15 +223,15 @@ First Lab:
   
   <br>
 
-  5. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
+  6. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
   
   <br>
 
-  6. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
+  7. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
   
   <br>
 
-  7. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
+  8. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
  </div>
  
  
@@ -449,15 +453,15 @@ First Lab:
   
   <br>
 
-  5. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
+  6. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
   
   <br>
 
-  6. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
+  7. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
   
   <br>
 
-  7. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
+  8. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
  </div>
  
  
