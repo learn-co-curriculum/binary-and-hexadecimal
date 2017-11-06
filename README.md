@@ -155,10 +155,7 @@
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
 
-```
-First Lab:
-  you made an edit to edit-me.txt (FAILED - 1)
-```
+<pre class="highlight plaintext"><code class=" linenums prettyprint plaintext "><ol class="linenums"><li class="L0">First Lab:</li><li class="L1">  you made an edit to edit-me.txt (FAILED - 1)</li></ol></code></pre>
 
   That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
