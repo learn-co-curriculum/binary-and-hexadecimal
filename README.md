@@ -266,7 +266,7 @@
    
    Now that you've taken a tour of the IDE, you have an idea of the different components. Let's review what you learned, and then take a closer look at how to work on a lab in the IDE.
   
-  You can click on Full Screen to have the IDE take over your full screen. 
+  You can click on Full Screen to have the IDE take over your browser window. 
   
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block;" height="500px" width="auto"/>
   <br>
@@ -331,9 +331,6 @@
   Once you've opened a file, the tab you see is the Text Editor that allows you to edit the contents of the file. This is where we do our programming and write our code. You open the files you want to edit in a tab in the text editor and can write code and save the file. Each tab gets the name of the file you are editing.
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
-
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block;" height="300px" width="auto"/>
-  <br>
    
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block;" height="300px" width="auto"/>
   <br>
@@ -344,11 +341,9 @@
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block;" height="300px" width="auto"/>
-  
-  <br>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: inline-block;" height="300px" width="auto"/>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block;" height="300px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: inline-block;" height="300px" width="auto"/>
   <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
@@ -419,6 +414,8 @@
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-submit.png" style="display: block;"/>
 
+  <br> 
+  
   If the tests are passing and the lab is submitted, all lights will turn green and you can move on to the next lesson.
 
   Congratulations, you've passed your first lab!!!
