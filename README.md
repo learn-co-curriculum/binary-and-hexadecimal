@@ -1,6 +1,7 @@
+# Your First IDE Lab
+
 <div class="readme-content-test--hide-when-active">
-  <h1> Your First IDE Lab</h1>
-  
+
   <br>
 
   Now that you've downloaded and installed the Learn IDE, it's time to solve your first lab.
@@ -82,9 +83,9 @@
 
   You can "Right Click" in the File Tree and a context menu will appear, giving you options to work within the folders and files of the lab, like creating a New File or New Folder. When creating a new file or new folder via the context menu, it will be created within the directory you right clicked on, so in the image above, the right click occurred within the <code>spec</code> directory, so any new file created would appear there.
 
-<h1>4. Open a File from the File Tree</h1>
+  <h1>4. Open a File from the File Tree</h1>
 
-<br>
+  <br>
 
   When you want to actually edit a file, you can click or double click on it in the File Tree. The file will then open in a new tab in the text editor.
 
@@ -155,7 +156,7 @@
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
 
-<pre class="highlight plaintext"><code class=" linenums prettyprint plaintext "><ol class="linenums"><li class="L0">First Lab:</li><li class="L1">  you made an edit to edit-me.txt (FAILED - 1)</li></ol></code></pre>
+  <pre class="highlight plaintext"><code class=" linenums prettyprint plaintext "><ol class="linenums"><li class="L0">First Lab:</li><li class="L1">  you made an edit to edit-me.txt (FAILED - 1)</li></ol></code></pre>
 
   That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
@@ -176,7 +177,7 @@
   
   <br>
 
-<strong>Make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
+  <strong>Make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
 
   <h1>9. Submitting a Lab with <code>learn submit</code></h1>
   
@@ -267,7 +268,7 @@
   
   You can click on Full Screen to have the IDE take over your full screen. 
   
-    <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block"/>
   
   <br>
   
@@ -279,11 +280,11 @@
   
   You can open or hide the file tree when you are in Split Screen, so you have more room to work in the text editor and terminal.
   
-   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block"/>
    
-   <br>
+  <br>
    
-    <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block"/>
   
   <br>
 
@@ -308,10 +309,10 @@
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnew.png" style="display: block"/>
   <br>
   
-    <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnewpath.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnewpath.png" style="display: block"/>
   <br>
 
-<h1>3. Open a File from the File Tree</h1>
+  <h1>3. Open a File from the File Tree</h1>
 
   <br>
 
@@ -319,7 +320,7 @@
 
   <strong>After opening this lab with the "Open IDE" button, use the File Tree and click on the file <code>edit-me.txt</code> to open it.</strong>
 
-   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
   <br>
   
   <br>
@@ -332,13 +333,13 @@
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
 
-   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
    
-   <br>
+  <br>
    
-   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block"/>
   
-   <br>
+  <br>
 
   <h1>5. Saving a File</h1>
   
@@ -348,11 +349,11 @@
 
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block"/>
   
-   <br>
+  <br>
    
-   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block"/>
 
-   <br>
+  <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
   
@@ -360,7 +361,7 @@
   
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/lastsaved.png" style="display: block"/>
 
-   <br>
+  <br>
   
   If you save the file yourself, this will update to reflect the time at which you saved. The IDE is also auto saving in the background. When the auto save occurs, the yellow dot on the text editor tab will disappear (even if you didn't manually save), and the timestamp at the bottom right will update. You should stay in the habit of manually saving your work, as having this habit will prepare you for working on a local environment, which will not auto save like the IDE does.
 
@@ -400,22 +401,19 @@
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
 
-```
-First Lab:
-  you made an edit to edit-me.txt (FAILED - 1)
-```
+  <pre class="highlight plaintext"><code class=" linenums prettyprint plaintext "><ol class="linenums"><li class="L0">First Lab:</li><li class="L1">  you made an edit to edit-me.txt (FAILED - 1)</li></ol></code></pre>
 
   That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
 
-   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestpass.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestpass.png" style="display: block"/>
   
   <br>
 
   Notice that the <code>edit-me.txt</code> file has text in it and is saved. The tests now report in the terminal that everything is passing and there are no failures. The light to the right has turned green to reflect the passing test.
 
-<strong>To review: make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
+  <strong>To review: make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
 
   <h1>8. Submitting a Lab with <code>learn submit</code></h1>
   
@@ -452,6 +450,4 @@ First Lab:
   7. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>
 
   8. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
- </div>
- 
- 
+</div>
