@@ -268,23 +268,25 @@
   
   You can click on Full Screen to have the IDE take over your full screen. 
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block"/>
-  
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block;" height="250px" width="auto"/>
   <br>
+  
   
   To view the IDE at Split Screen (the default when you open a lab in the IDE) you click Split Screen.
  
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/fullscreenidetext.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/fullscreenidetext.png" style="display: block;" height="250px" width="auto"/>
   
   <br>
   
   You can open or hide the file tree when you are in Split Screen, so you have more room to work in the text editor and terminal.
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block;" height="250px" width="auto"/>
+  <br>
    
   <br>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block;" height="250px" width="auto"/>
+  <br>
   
   <br>
 
@@ -296,20 +298,20 @@
 
   A folder (called a directory), is represented in the file tree with a Folder icon and a `>` showing that it is currently folded or closed, hiding the files inside it. If you click on the folder you can expand it or open it, revealing the files inside the directory.
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/openingdirectory.png" style="display: block"/>
- <br>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/openingdirectory.png" style="display: block;" height="250px" width="auto"/>
+  <br>
 
   You can "Right Click" on any directory in the File Tree and a context menu will appear, giving you options to create a new file or directory, or rename, move, duplicate, or delete the selected directory. When creating a new file or new directory via the context menu, it will be created within the directory you right clicked on, so in the image below, the right click occurred within the <code>spec</code> directory, so any new file created would appear there. If you "Right Click" on a file you will see options to rename, move, duplicate, or delete the selected file. 
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/menu.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/menu.png" style="display: block;" height="250px" width="auto"/>
   <br>
   
   You can also add a file or directory by clicking the "Create New +" button at the bottom of the file tree. When you create a file or directory from this button, you can define the path of the file or directory.
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnew.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnew.png" style="display: block;" height="250px" width="auto"/>
   <br>
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnewpath.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnewpath.png" style="display: block;" height="250px" width="auto"/>
   <br>
 
   <h1>3. Open a File from the File Tree</h1>
@@ -333,12 +335,10 @@
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
-   
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block;" height="250px" width="auto"/>
   <br>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block"/>
-  
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block;" height="250px" width="auto"/>
   <br>
 
   <h1>5. Saving a File</h1>
@@ -347,19 +347,18 @@
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block;" height="250px" width="auto"/>
   
   <br>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block"/>
-
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block;" height="250px" width="auto"/>
   <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
   
   At the bottom right of the IDE you will see a timestamp of when your work was last saved.
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/lastsaved.png" style="display: block;" height="400px" width="auto"/>"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/lastsaved.png" style="display: block;" height="250px" width="auto"/>
 
   <br>
   
@@ -435,19 +434,41 @@
   
   <br>
 
+  <h2>Summary</h2>
+  
+  <br>
+
+  For every lab, the workflow you will use to solve it is:
+  
+  <br>
+
   1. Open the lab by clicking the "Open" button.
+  
+  <br>
 
   2. Read the README of the lab and get a sense of what the lab wants you to do.
+  
+  <br>
 
   3. Run the tests with <code>learn</code> from your terminal.
+  
+  <br>
 
   4. Open any files you need to edit using the File Tree.
+  
+  <br>
 
   5. Write code in the Text Editor that will satisfy the lab requirements.
+  
+  <br>
 
   6. Run the <code>learn</code> command in your Terminal as many times as you need to get feedback.
+  
+  <br>
 
-  7. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>
+  7. Once the tests are passing or even if you're just done for the day, submit the lab with <code>learn submit</code>.
+  
+  <br>
 
   8. If you ever get stuck, use "Ask a Question" to get help, don't be shy!
 </div>
