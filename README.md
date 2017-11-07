@@ -235,6 +235,8 @@
  
  
  <div class="readme-content-test--show-when-active">
+  <br>
+  
   <h1> Your First IDE Lab</h1>
 
   Now that you've learned about the Learn IDE, it's time to solve your first lab.
