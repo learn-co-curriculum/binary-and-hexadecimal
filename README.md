@@ -268,26 +268,23 @@
   
   You can click on Full Screen to have the IDE take over your full screen. 
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block;" height="500px" width="auto"/>
   <br>
   
   
   To view the IDE at Split Screen (the default when you open a lab in the IDE) you click Split Screen.
  
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/fullscreenidetext.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/fullscreenidetext.png" style="display: block;" height="500px" width="auto"/>
   
   <br>
   
   You can open or hide the file tree when you are in Split Screen, so you have more room to work in the text editor and terminal.
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block;" height="500px" width="auto"/>
   <br>
    
-  <br>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block;" height="250px" width="auto"/>
-  <br>
-  
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block;" height="500px" width="auto"/>
   <br>
 
   <h1>2. Navigate Folders with the File Tree</h1>
@@ -322,7 +319,7 @@
 
   <strong>After opening this lab with the "Open IDE" button, use the File Tree and click on the file <code>edit-me.txt</code> to open it.</strong>
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block;" height="300px" width="auto"/>
   <br>
   
   <br>
@@ -335,10 +332,10 @@
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block;" height="300px" width="auto"/>
   <br>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block;" height="300px" width="auto"/>
   <br>
 
   <h1>5. Saving a File</h1>
@@ -347,11 +344,11 @@
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block;" height="300px" width="auto"/>
   
   <br>
    
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block;" height="250px" width="auto"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block;" height="300px" width="auto"/>
   <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
@@ -392,7 +389,7 @@
 
   The challenge of this lab is to edit the file <code>edit-me.txt</code>. When that file is empty, if you run <code>learn</code> from your terminal, you would see:
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestfail.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestfail.png" style="display: block;" height="500px" width="auto"/>
   
   <br>
 
@@ -406,7 +403,7 @@
 
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
 
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestpass.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestpass.png" style="display: block;" height="500px" width="auto"/>
   
   <br>
 
