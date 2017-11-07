@@ -330,10 +330,12 @@
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/menu.png" style="display: block;" height="250px" width="auto"/>
   <br>
   
-  You can also add a file or directory by clicking the "Create New +" button at the bottom of the file tree. When you create a file or directory from this button, you can define the path of the file or directory.
+  You can also add a file or directory by clicking the "Create New +" button at the bottom of the file tree. 
   
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnew.png" style="display: block;" height="250px" width="auto"/>
   <br>
+  
+  When you create a file or directory from this button, you can define the path of the file or directory.
   
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnewpath.png" style="display: block;" height="250px" width="auto"/>
   <br>
@@ -375,6 +377,7 @@
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: inline-block;" height="300px" width="auto"/>
    
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: inline-block;" height="300px" width="auto"/>
+  <br>
   <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
@@ -437,6 +440,8 @@
 
   <pre class="highlight plaintext"><code class=" linenums prettyprint plaintext "><ol class="linenums"><li class="L0">First Lab:</li><li class="L1">  you made an edit to edit-me.txt (FAILED - 1)</li></ol></code></pre>
 
+  <br>
+  
   That's a pretty helpful message, the tests are telling you that you should have made an edit to <code>edit-me.txt</code>
 
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
