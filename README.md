@@ -121,6 +121,7 @@
   
   
   <br>
+  <br>
   Notice how after saving the file, the blue dot disappears on the tab.
 
   <h1>7. Running a Command with Your Terminal</h1>
@@ -190,6 +191,7 @@
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/failing-lights.png" style="display: inline"/>
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/passing-lights.png" style="display: inline"/>
   
+  <br>
   <br>
 
   <strong>Make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
