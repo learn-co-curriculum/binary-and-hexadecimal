@@ -421,7 +421,7 @@
 
   The last step to completing a lab with the Learn IDE is to submit it. You can do this at anytime by typing <code>learn submit</code> in your terminal.
 
-  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-submit.png" style="display: block"/>
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-submit.png" style="display: block;" height="400px" width="auto"/>
 
   If the tests are passing and the lab is submitted, all lights will turn green and you can move on to the next lesson.
 
