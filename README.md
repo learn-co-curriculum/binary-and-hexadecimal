@@ -102,6 +102,7 @@
   Once you've opened a file, every tab you see is the Text Editor that allows you to edit the contents of the file. This is where we do our programming and write our code. You open the files you want to edit in a tab in the text editor and can write code and save the file. Each tab gets the name of the file you are editing.
   
   <br>
+  <br>
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in how to open a file, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
 
@@ -149,6 +150,9 @@
   <br>
 
   Now that you know how to run commands from your Terminal, the next step is to run the <code>learn</code> command. Each lab comes with a challenge or problem you need to solve by writing code, demonstrating that you understand the concepts and can implement them in your programs. Labs are "test driven", which means we include code in the lab that checks to see if the code you write correctly solves the challenge. To check your lab and run the tests, you type in <code>learn</code> in your terminal.
+  
+  <br>
+  <br>
 
   The challenge of this lab is to edit the file <code>edit-me.txt</code>. When that file is empty, if you run <code>learn</code> from your terminal, you would see:
 
@@ -158,6 +162,7 @@
 
   This is a failing test, which is totally normal, all labs are failing until you make them pass.
   
+  <br>
   <br>
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
@@ -198,6 +203,9 @@
   <br>
 
   If the tests are passing and the lab is submitted, all lights will turn green and you can move onto the next lesson.
+  
+  <br>
+  <br>
 
   Congratulations, you've passed your first lab!!!
 
@@ -275,8 +283,12 @@
    When you click the Open button for the first time, the IDE will take over your browser window and a tour of the IDE features will begin. When the tour is finished, the IDE and this lesson text will be side by side so you can continue reading while looking at the IDE. Go ahead and click the Open IDE button to take the tour. If clicking on the Open IDE button did not do anything, or gave you an error message, use Ask a Question to get support in real time.
    
    <br>
+   <br>
    
    Now that you've taken a tour of the IDE, you have an idea of the different components. Let's review what you learned, and then take a closer look at how to work on a lab in the IDE.
+   
+   <br>
+   <br>
   
   You can click on Full Screen to have the IDE take over your browser window. 
   
@@ -333,12 +345,11 @@
   When you want to actually edit a file, you can click or double click on it in the File Tree. The file will then open in a new tab in the text editor.
   
   <br>
+  <br>
 
   <strong>After opening this lab with the "Open IDE" button, use the File Tree and click on the file <code>edit-me.txt</code> to open it.</strong>
 
   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block;" height="300px" width="auto"/>
-  <br>
-  
   <br>
 
   <h1>4. Edit a File with the Text Editor</h1>
@@ -347,6 +358,7 @@
 
   Once you've opened a file, the tab you see is the Text Editor that allows you to edit the contents of the file. This is where we do our programming and write our code. You open the files you want to edit in a tab in the text editor and can write code and save the file. Each tab gets the name of the file you are editing.
   
+  <br>
   <br>
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
@@ -368,6 +380,7 @@
   Notice how after saving the file, the yellow dot disappears on the tab.
   
   <br>
+  <br>
   
   At the bottom right of the IDE you will see a timestamp of when your work was last saved.
   
@@ -385,6 +398,7 @@
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/ls-terminal.png" style="display: block"/>
   
+  <br>
   <br>
 
   <code>ls</code> stands for list and it will list all the files in the directory, similar to the file tree. After you press enter you will see output from the terminal responding to the command you typed.
@@ -406,6 +420,7 @@
   Now that you know how to run commands from your Terminal, the next step is to run the <code>learn</code> command. Each lab comes with a challenge or problem you need to solve by writing code, demonstrating that you understand the concepts and can implement them in your programs. Labs are "test driven", which means we include code in the lab that checks to see if the code you write correctly solves the challenge. To check your lab and run the tests, you type in <code>learn</code> in your terminal.
   
   <br>
+  <br>
 
   The challenge of this lab is to edit the file <code>edit-me.txt</code>. When that file is empty, if you run <code>learn</code> from your terminal, you would see:
 
@@ -415,6 +430,7 @@
 
   This is a failing test, which is totally normal, all labs are failing until you make them pass. You can see that a test is failing from the output in the terminal, and the red light to the right of the IDE. When the test passes, the output in the terminal will show that the test passed, and the test light will turn green.
   
+  <br>
   <br>
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
@@ -432,6 +448,7 @@
   Notice that the <code>edit-me.txt</code> file has text in it and is saved. The tests now report in the terminal that everything is passing and there are no failures. The light to the right has turned green to reflect the passing test.
   
   <br>
+  <br>
 
   <strong>To review: make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
 
@@ -447,6 +464,7 @@
   
   If the tests are passing and the lab is submitted, all lights will turn green and you can move on to the next lesson.
   
+  <br>
   <br>
 
   Congratulations, you've passed your first lab!!!
