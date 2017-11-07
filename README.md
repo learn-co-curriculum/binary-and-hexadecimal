@@ -291,25 +291,25 @@
   
   <br>
 
-  new image
-  
-  <br>
-
   The File Tree in the IDE is a way to browse the file and folders in the lab. It works a lot like a file browser on your computer, showing you the top level folder on top, generally the lab name, and then all the files and folders inside the folder.
 
- new image
+  A folder (called a directory), is represented in the file tree with a Folder icon and a `>` showing that it is currently folded or closed, hiding the files inside it. If you click on the folder you can expand it or open it, revealing the files inside the directory.
 
-  A folder is represented in the file tree with a Folder icon and a `>` showing that it is currently folded or closed, hiding the files inside it. If you click on the folder you can expand it or open it, revealing the files inside the directory.
-
- new image
- 
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/openingdirectory.png" style="display: block"/>
  <br>
 
-  You can "Right Click" on any directory in the File Tree and a context menu will appear, giving you options to create a new file or directory, or rename, move, duplicate, or delete the selected directory. When creating a new file or new folder via the context menu, it will be created within the directory you right clicked on, so in the image above, the right click occurred within the <code>spec</code> directory, so any new file created would appear there. If you "Right Click" on a file you will see options to rename, move, duplicate, or delete the selected file. 
+  You can "Right Click" on any directory in the File Tree and a context menu will appear, giving you options to create a new file or directory, or rename, move, duplicate, or delete the selected directory. When creating a new file or new directory via the context menu, it will be created within the directory you right clicked on, so in the image below, the right click occurred within the <code>spec</code> directory, so any new file created would appear there. If you "Right Click" on a file you will see options to rename, move, duplicate, or delete the selected file. 
+  
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/menu.png" style="display: block"/>
+  <br>
   
   You can also add a file or directory by clicking the "Create New +" button at the bottom of the file tree. When you create a file or directory from this button, you can define the path of the file or directory.
   
-  new image
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnew.png" style="display: block"/>
+  <br>
+  
+    <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/createnewpath.png" style="display: block"/>
+  <br>
 
 <h1>3. Open a File from the File Tree</h1>
 
@@ -319,7 +319,8 @@
 
   <strong>After opening this lab with the "Open IDE" button, use the File Tree and click on the file <code>edit-me.txt</code> to open it.</strong>
 
-  new image
+   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
+  <br>
   
   <br>
 
@@ -331,9 +332,13 @@
 
   <strong>If you've clicked on <code>edit-me.txt</code> as described in "Open a File from the File Tree, you should see a tab now with the title <code>edit-me.txt</code>. The file is totally empty. Go ahead and write anything in the file, <code>Hello World!</code>, your name, anything. To pass this lab all you need to do is not have a blank <code>edit-me.txt</code> file.</strong>
 
-  new image
+   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/editme.png" style="display: block"/>
+   
+   <br>
+   
+   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/helloworld.png" style="display: block"/>
   
-  <br>
+   <br>
 
   <h1>5. Saving a File</h1>
   
@@ -341,27 +346,26 @@
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
 
-  new image
-  new image
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/notsaved.png" style="display: block"/>
   
-  <br>
+   <br>
+   
+   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/saved.png" style="display: block"/>
+
+   <br>
 
   Notice how after saving the file, the yellow dot disappears on the tab.
   
-  At the bottom right of the IDE you will see a timestamp of when your work was last saved. 
+  At the bottom right of the IDE you will see a timestamp of when your work was last saved.
   
-  new image
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/lastsaved.png" style="display: block"/>
+
+   <br>
   
-  <br>
-  
-  If you save the file yourself, this will update to reflect the time at which you saved. The IDE is also auto saving in the background. When the auto save occurs, the yellow dot on the text editor tab will disappear (even if you didn't manually save), and the timestamp at the bottom right will update. You should stay in the habit of manually saving your work, as having this habit will prepare you  for working on a local environment, which will not auto save.
+  If you save the file yourself, this will update to reflect the time at which you saved. The IDE is also auto saving in the background. When the auto save occurs, the yellow dot on the text editor tab will disappear (even if you didn't manually save), and the timestamp at the bottom right will update. You should stay in the habit of manually saving your work, as having this habit will prepare you for working on a local environment, which will not auto save like the IDE does.
 
   <h1>6. Running a Command with Your Terminal</h1>
   
-  <br>
-
-new image
-
   <br>
   
   On the bottom of the IDE is a Terminal. This is your access point to your development environment that the Learn IDE provides. As a programmer, we use the terminal for a lot of tasks including actually running our code and programs and executing commands. You're going to learn a lot about how to use a Terminal, but for now, know that you can type certain commands into it. Let's try one, <code>ls</code> (the letter <code>L</code>, but lowercase, and the letter <code>S</code>, but lowercase). Click into the terminal, then type <code>ls</code> and press enter to execute the command.
@@ -388,9 +392,11 @@ new image
 
   The challenge of this lab is to edit the file <code>edit-me.txt</code>. When that file is empty, if you run <code>learn</code> from your terminal, you would see:
 
-  new image
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestfail.png" style="display: block"/>
+  
+  <br>
 
-  This is a failing test, which is totally normal, all labs are failing until you make them pass.
+  This is a failing test, which is totally normal, all labs are failing until you make them pass. You can see that a test is failing from the output in the terminal, and the red light to the right of the IDE. When the test passes, the output in the terminal will show that the test passed, and the test light will turn green.
 
   You can see from the output in your terminal some information about why the lab is currently failing. You don't need to understand all of the test output but there will always be hints as to what you're suppose to do to solve the lab. For example:
 
@@ -403,22 +409,13 @@ First Lab:
 
   Once you edit <code>edit-me.txt</code> to contain any text and not be empty, if you re-run <code>learn</code> from your terminal, you would see:
 
-  new image
+   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/learntestpass.png" style="display: block"/>
   
   <br>
 
-  Notice that the <code>edit-me.txt</code> file has text in it and is saved. The tests now report that everything is passing and there are no failures.
+  Notice that the <code>edit-me.txt</code> file has text in it and is saved. The tests now report in the terminal that everything is passing and there are no failures. The light to the right has turned green to reflect the passing test.
 
-  When you run <code>learn</code>, you will also see that the Learn website is aware of the status of your lab represented by the "Lights" on the right.
-  
-  <br>
-
-  new image
-  new image
-  
-  <br>
-
-<strong>Make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
+<strong>To review: make sure you've edited <code>edit-me.txt</code> and added any text, saved the file, and then run <code>learn</code> from your terminal to see if your tests are passing.</strong>
 
   <h1>8. Submitting a Lab with <code>learn submit</code></h1>
   
