@@ -257,25 +257,35 @@
 
   Whenever you're on a lab in Learn that requires the Learn IDE, you'll see an "Open IDE" button on the Lab's header.
 
-  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="border: 1px solid #000; display: block" alt="Lab Header"/>
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-sample-header.png" style="display: block"/>
   
   <br>
 
-   When you click the Open button for the first time, the IDE will take over your browser window and a tour of the IDE features will begin. When the tour is finished, the IDE and this lesson text will be side by side so you can continue reading while looking at the IDE. Go ahead and click the Open IDE button to take the tour. 
+   When you click the Open button for the first time, the IDE will take over your browser window and a tour of the IDE features will begin. When the tour is finished, the IDE and this lesson text will be side by side so you can continue reading while looking at the IDE. Go ahead and click the Open IDE button to take the tour. If clicking on the Open IDE button did not do anything, or gave you an error message, use Ask a Question to get support in real time.
    
    Now that you've taken a tour of the IDE, you have an idea of the different components. Let's review what you learned, and then take a closer look at how to work on a lab in the IDE.
   
-  If clicking on the Open IDE button did not do anything or gave you an error message, use Ask a Question to get live support.
+  You can click on Full Screen to have the IDE take over your full screen. 
   
-  You can click on Full Screen to have the IDE take over your full screen. To then view it at Split Screen (the default when you open a lab in the IDE) you click Split Screen.
+    <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/splitscreenidetext.png" style="display: block"/>
   
-  new image
+  <br>
+  
+  To view the IDE at Split Screen (the default when you open a lab in the IDE) you click Split Screen.
+ 
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/fullscreenidetext.png" style="display: block"/>
   
   <br>
   
   You can open or hide the file tree when you are in Split Screen, so you have more room to work in the text editor and terminal.
   
-  Add more tooltip info
+   <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreeopen.png" style="display: block"/>
+   
+   <br>
+   
+    <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/filetreehidden.png" style="display: block"/>
+  
+  <br>
 
   <h1>2. Navigate Folders with the File Tree</h1>
   
