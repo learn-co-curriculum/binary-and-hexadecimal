@@ -113,6 +113,8 @@
   <br>
 
   After you edit a file, you must save it. As mentioned above, each file tab will indicate if the file has been changed and not saved by putting a dot on the right corner of the tab. Once you're done editing a file, save it by going to File -> Save in the application menu, pressing ⌘+S (Command and S at the same time) on a Mac, or Ctrl+S (Control and S at the same time) on Windows.
+  
+  <br>
 
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/saving-a-file.png" style="display: inline"/>
   <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/saved-edited-file.png" style="display: inline"/>
