@@ -359,7 +359,7 @@
   
   At the bottom right of the IDE you will see a timestamp of when your work was last saved.
   
-  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/lastsaved.png" style="display: block"/>
+  <img src="//s3-us-west-2.amazonaws.com/curriculum-content/onboarding/first-ide-lab/lastsaved.png" style="display: block;" height="400px" width="auto"/>"/>
 
   <br>
   
@@ -421,7 +421,7 @@
 
   The last step to completing a lab with the Learn IDE is to submit it. You can do this at anytime by typing <code>learn submit</code> in your terminal.
 
-  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-submit.png" style="display: block;" height="400px" width="auto"/>
+  <img src="//learn-co-videos.s3.amazonaws.com/learn-co-orientation/learn-submit.png" style="display: block;"/>
 
   If the tests are passing and the lab is submitted, all lights will turn green and you can move on to the next lesson.
 
